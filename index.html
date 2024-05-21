@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Personalised Shopping Cart</title>
+  <link rel="shortcut icon" href="shop logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cart">
+    <div class="item">
+      <img src="madrid.jpg" alt="Item 1">
+      <div class="item-details">
+        <h3>Item 1</h3>
+        <p>$15</p>
+        <div class="controls">
+          <button class="decrement">-</button>
+          <span class="quantity">1</span>
+          <button class="increment">+</button>
+          <button class="like">&#x2665;</button>
+          <button class="remove">Remove</button>
+        </div>
+      </div>
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+  <div class="total">
+    <p>Total: <span id="total-price">$15</span></p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
